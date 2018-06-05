@@ -1,0 +1,56 @@
+git merge = combine multiple commits into one base commit and then merges commit.
+git pull = retreive data from remote and immidiately update into the local repo
+git fetch = retrive data from remote to local repo
+git push = upload local repo content to remote / central repo
+pull = fetch + merge
+git checkout = to discard changes
+git stash = it removes the dirty state of working directory and saves it on unfinished changes 
+that we can reapply anytime.
+git stash apply = 
+git status = displays which files are staged,unstaged and untracked
+git revert = for undoing commited changes
+git reset = 
+git reset HEAD = for undoing uncomitted changes
+* indicates we are on a particular branch
+git add--all = to stage it
+git branch -d branch name = to delete branch from local repository
+git push --d branch name = deletes branch from central repository
+git log = displays record of commits
+git log <limit> = limit number of commits
+git log --oneline = condense each commit to one line
+git log -p = display the full diff of each commit
+git log --stat =    
+will not do anything about the deleted files
+git add -A = includes delettions files
+git rm 
+git diff = shows unstaged changes betwn index and working directory
+git --diff = shows changes btwn index and local repo 
+git diff HEAD = shows diff between working dir and last commit
+git diff --cached = shows diff between staged changes and last commit 
+git init = to create empty git repo in specified direcory.
+git rebase = it will merge another branch into the branch where you are currently working,
+             and move all of the local commits that are ahead of the rebased branch to the 
+             top of the history on that branch
+git add = adds current files to stagging area
+git commit = save the changes to local repository.
+git commit -a = displays all commit changes we have made
+git commit -m " test mesg" = for commit mesg
+git reflog = 
+git clean -f -d = will remove newly created files and directories 
+git config --global user.name "my name is king "
+git config --global user.email "mynameisking@gmail.com"
+git no hup = even if server is donw we can run the processor in the background
+SHA 1 = secured hash algorith 1. which is used for digital signatures.
+commited = data is securely stored in a local repo
+staged = we have marked the modified file in its current version to go into next commit.
+
+
+
+
+
+
+*************************
+git branch = list of all branches in the repo.
+git add branch = 
+
+
