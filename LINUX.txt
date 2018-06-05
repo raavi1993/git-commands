@@ -1,0 +1,56 @@
+ls= to see list of files in that directory
+
+ls -l = to see long listing of files and also their permissions
+
+ls -a = this shows all the files including hidden files
+
+ls -Sl = to sort the files by size and display large size files at top
+
+ls-lrS = to sort the files by size and display smaller size files at top
+
+ls -l <directory name>= this is used search a directory with its name
+
+ls -R <directory name>=To see the contents of a directory i.e lists directories recursiveley
+
+ls -lt= this is used to display last time modified new one at first
+
+env= lists all of the environment variable set in that particular shell environment
+
+echo $PATH= to see path environment variables 
+
+mkdir= to create direcotry
+
+rmdir= to remove direcotry
+
+whoami =this displays user that logged in
+
+echo $LOGNAME= this is same as whoami command
+
+su <username>= If you know the psd of ther user then you loginby using this substitute user 
+
+exit = to leave shell environment that you are logged into
+
+su -=to login as a root user
+
+reboot or init 6 = if you have system admin prevelagis the you can reboot linux system 
+
+halt or poweroff = this is used to shut down the linux system
+
+top = this show top runnig processors on our linux computer this command is very helpfull for system admin 
+
+uname = this displays the name of the kernal
+
+uname -s = same as above command
+
+uname -r = displays what release number of kernal
+
+uname -v = to display the build version of kernal
+
+uname -m = to display the machine type
+
+uname -p = to display the processors
+
+uname -o = to display full name of operating system
+
+uname -a = to display all the info that uname shows
+
